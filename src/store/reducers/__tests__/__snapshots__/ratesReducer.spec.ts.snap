@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ratesReducer should have correct state on failed rate 1`] = `
+Object {
+  "data": Object {
+    "fromPocket": "GBP",
+    "rate": 0,
+    "toPocket": "EUR",
+  },
+  "error": "failed!",
+  "status": "failed",
+}
+`;
+
+exports[`ratesReducer should have correct state on loading rate 1`] = `
+Object {
+  "data": Object {
+    "fromPocket": "GBP",
+    "rate": 0,
+    "toPocket": "EUR",
+  },
+  "error": undefined,
+  "status": "loading",
+}
+`;
+
+exports[`ratesReducer should have correct state on successful rate 1`] = `
+Object {
+  "data": Object {
+    "fromPocket": "EUR",
+    "rate": 1.123123,
+    "toPocket": "GBP",
+  },
+  "error": undefined,
+  "status": "succeeded",
+}
+`;
+
+exports[`ratesReducer should return the initial state 1`] = `
+Object {
+  "data": Object {
+    "fromPocket": "GBP",
+    "rate": 0,
+    "toPocket": "EUR",
+  },
+  "error": undefined,
+  "status": "loading",
+}
+`;

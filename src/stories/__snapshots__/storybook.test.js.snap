@@ -1,0 +1,730 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/AmountInput Default 1`] = `
+<input
+  className="sc-bdfBwQ gbyPV"
+  onChange={[Function]}
+  onKeyPress={[Function]}
+  onPaste={[Function]}
+  placeholder="0"
+  type="number"
+/>
+`;
+
+exports[`Storyshots Components/AmountInput Limit Ten Numbers 1`] = `
+<input
+  className="sc-bdfBwQ gbyPV"
+  onChange={[Function]}
+  onKeyPress={[Function]}
+  onPaste={[Function]}
+  placeholder="0"
+  type="number"
+/>
+`;
+
+exports[`Storyshots Components/AmountInput Limit Zero Numbers 1`] = `
+<input
+  className="sc-bdfBwQ gbyPV"
+  onChange={[Function]}
+  onKeyPress={[Function]}
+  onPaste={[Function]}
+  placeholder="0"
+  type="number"
+/>
+`;
+
+exports[`Storyshots Components/AmountInput No Decimal Places 1`] = `
+<input
+  className="sc-bdfBwQ gbyPV"
+  onChange={[Function]}
+  onKeyPress={[Function]}
+  onPaste={[Function]}
+  placeholder="0"
+  type="number"
+/>
+`;
+
+exports[`Storyshots Components/Buttons Exchange Rate 1`] = `
+<button
+  className="sc-dlfnbm sc-eCssSg jaaHrn gRtzej"
+  onClick={[Function]}
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    className="svg-inline--fa fa-chart-line fa-w-16 "
+    data-icon="chart-line"
+    data-prefix="fas"
+    focusable="false"
+    role="img"
+    style={Object {}}
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z"
+      fill="currentColor"
+      style={Object {}}
+    />
+  </svg>
+  <span
+    className="sc-jSgupP iydUeL"
+  >
+    £1 = €1.1234
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Buttons Icon 1`] = `
+<button
+  className="sc-iBPRYJ gMoiEK"
+  type="button"
+>
+  <span>
+    heart
+  </span>
+  <svg
+    aria-hidden="true"
+    className="svg-inline--fa fa-heart fa-w-16 "
+    data-icon="heart"
+    data-prefix="fas"
+    focusable="false"
+    role="img"
+    style={Object {}}
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+      fill="currentColor"
+      style={Object {}}
+    />
+  </svg>
+</button>
+`;
+
+exports[`Storyshots Components/Buttons Primary 1`] = `
+<button
+  className="sc-dlfnbm gVpfYg"
+>
+  Primary
+</button>
+`;
+
+exports[`Storyshots Components/Buttons Secondary 1`] = `
+<button
+  className="sc-dlfnbm jaaHrn"
+>
+  Secondary
+</button>
+`;
+
+exports[`Storyshots Components/Buttons Swap 1`] = `
+<button
+  className="sc-dlfnbm sc-gKsewC jaaHrn cdpTJI"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    className="svg-inline--fa fa-exchange-alt fa-w-16 "
+    data-icon="exchange-alt"
+    data-prefix="fas"
+    focusable="false"
+    role="img"
+    style={Object {}}
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 168v-16c0-13.255 10.745-24 24-24h360V80c0-21.367 25.899-32.042 40.971-16.971l80 80c9.372 9.373 9.372 24.569 0 33.941l-80 80C409.956 271.982 384 261.456 384 240v-48H24c-13.255 0-24-10.745-24-24zm488 152H128v-48c0-21.314-25.862-32.08-40.971-16.971l-80 80c-9.372 9.373-9.372 24.569 0 33.941l80 80C102.057 463.997 128 453.437 128 432v-48h360c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24z"
+      fill="currentColor"
+      style={Object {}}
+    />
+  </svg>
+</button>
+`;
+
+exports[`Storyshots Components/Buttons Theme 1`] = `
+<button
+  className="sc-dlfnbm sc-hKgILt jaaHrn jHREqA"
+  onClick={[Function]}
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    className="svg-inline--fa fa-toggle-off fa-w-18 "
+    data-icon="toggle-off"
+    data-prefix="fas"
+    focusable="false"
+    role="img"
+    style={Object {}}
+    viewBox="0 0 576 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M384 64H192C85.961 64 0 149.961 0 256s85.961 192 192 192h192c106.039 0 192-85.961 192-192S490.039 64 384 64zM64 256c0-70.741 57.249-128 128-128 70.741 0 128 57.249 128 128 0 70.741-57.249 128-128 128-70.741 0-128-57.249-128-128zm320 128h-48.905c65.217-72.858 65.236-183.12 0-256H384c70.741 0 128 57.249 128 128 0 70.74-57.249 128-128 128z"
+      fill="currentColor"
+      style={Object {}}
+    />
+  </svg>
+</button>
+`;
+
+exports[`Storyshots Components/Header Text 1`] = `
+<header
+  className="sc-fubCfw hEpPYv"
+>
+  <span>
+    <h1>
+      Example Text
+    </h1>
+  </span>
+  <button
+    className="sc-dlfnbm sc-hKgILt jaaHrn jHREqA"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-toggle-off fa-w-18 "
+      data-icon="toggle-off"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 576 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M384 64H192C85.961 64 0 149.961 0 256s85.961 192 192 192h192c106.039 0 192-85.961 192-192S490.039 64 384 64zM64 256c0-70.741 57.249-128 128-128 70.741 0 128 57.249 128 128 0 70.741-57.249 128-128 128-70.741 0-128-57.249-128-128zm320 128h-48.905c65.217-72.858 65.236-183.12 0-256H384c70.741 0 128 57.249 128 128 0 70.74-57.249 128-128 128z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </button>
+</header>
+`;
+
+exports[`Storyshots Components/Header Text With Input 1`] = `
+<header
+  className="sc-fubCfw hEpPYv"
+>
+  <span>
+    <div
+      style={
+        Object {
+          "display": "grid",
+          "gridGap": "20px",
+          "gridTemplateColumns": "max-content 1fr",
+        }
+      }
+    >
+      <h1>
+        Input
+      </h1>
+      <input
+        className="sc-bdfBwQ gbyPV"
+      />
+    </div>
+  </span>
+  <button
+    className="sc-dlfnbm sc-hKgILt jaaHrn jHREqA"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-toggle-off fa-w-18 "
+      data-icon="toggle-off"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 576 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M384 64H192C85.961 64 0 149.961 0 256s85.961 192 192 192h192c106.039 0 192-85.961 192-192S490.039 64 384 64zM64 256c0-70.741 57.249-128 128-128 70.741 0 128 57.249 128 128 0 70.741-57.249 128-128 128-70.741 0-128-57.249-128-128zm320 128h-48.905c65.217-72.858 65.236-183.12 0-256H384c70.741 0 128 57.249 128 128 0 70.74-57.249 128-128 128z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </button>
+</header>
+`;
+
+exports[`Storyshots Components/InputBasic Default 1`] = `
+<input
+  className="sc-bdfBwQ gbyPV"
+/>
+`;
+
+exports[`Storyshots Components/PocketItem Dollar 1`] = `
+<div
+  className="sc-pFZIQ fBCUbX"
+  onClick={[Function]}
+>
+  <img
+    alt="US Flag"
+    className="sc-jrAGrp iSuasC"
+    height={45}
+    role="img"
+    src="https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/US.svg"
+    width={45}
+  />
+  <div
+    className="sc-kEjbxe cjJWHK"
+  >
+    USD
+     • 
+    $
+    300
+  </div>
+  <div
+    className="sc-iqHYGH hHzYtY"
+  >
+    US Dollar
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/PocketItem Euro 1`] = `
+<div
+  className="sc-pFZIQ fBCUbX"
+  onClick={[Function]}
+>
+  <img
+    alt="EU Flag"
+    className="sc-jrAGrp iSuasC"
+    height={45}
+    role="img"
+    src="https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/EU.svg"
+    width={45}
+  />
+  <div
+    className="sc-kEjbxe cjJWHK"
+  >
+    EUR
+     • 
+    €
+    100
+  </div>
+  <div
+    className="sc-iqHYGH hHzYtY"
+  >
+    Euro
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/PocketItem Pound 1`] = `
+<div
+  className="sc-pFZIQ fBCUbX"
+  onClick={[Function]}
+>
+  <img
+    alt="GB Flag"
+    className="sc-jrAGrp iSuasC"
+    height={45}
+    role="img"
+    src="https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg"
+    width={45}
+  />
+  <div
+    className="sc-kEjbxe cjJWHK"
+  >
+    GBP
+     • 
+    £
+    200
+  </div>
+  <div
+    className="sc-iqHYGH hHzYtY"
+  >
+    British Pound
+  </div>
+</div>
+`;
+
+exports[`Storyshots Pages/Exchange Example 1`] = `
+<form
+  className="sc-fFubgz ceAtPi"
+  onKeyPress={[Function]}
+  onSubmit={[Function]}
+>
+  <header
+    className="sc-fubCfw hEpPYv"
+  >
+    <span>
+      <h1>
+        Exchange
+      </h1>
+    </span>
+    <button
+      className="sc-dlfnbm sc-hKgILt jaaHrn jHREqA"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-toggle-off fa-w-18 "
+        data-icon="toggle-off"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M384 64H192C85.961 64 0 149.961 0 256s85.961 192 192 192h192c106.039 0 192-85.961 192-192S490.039 64 384 64zM64 256c0-70.741 57.249-128 128-128 70.741 0 128 57.249 128 128 0 70.741-57.249 128-128 128-70.741 0-128-57.249-128-128zm320 128h-48.905c65.217-72.858 65.236-183.12 0-256H384c70.741 0 128 57.249 128 128 0 70.74-57.249 128-128 128z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+  </header>
+  <div
+    className="sc-crrsfI itEgCu top"
+  >
+    <button
+      className="sc-iBPRYJ gMoiEK sc-dQppl eepqsu"
+      type="button"
+    >
+      <span>
+        GBP
+      </span>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-angle-down fa-w-10 "
+        data-icon="angle-down"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 320 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+    <div
+      className="sc-bqyKva dsycdt"
+    >
+      Balance: 
+      £
+      200
+    </div>
+    <div
+      className="sc-kstrdz eVykBZ"
+    >
+      <input
+        autoComplete="off"
+        className="sc-bdfBwQ gbyPV"
+        min="0.01"
+        name="fromAmount"
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        onPaste={[Function]}
+        placeholder="0"
+        step="0.01"
+        style={
+          Object {
+            "textAlign": "right",
+            "width": "3ch",
+          }
+        }
+        type="number"
+      />
+    </div>
+  </div>
+  <div
+    className="actions-wrapper"
+  >
+    <div
+      className="sc-hBEYos Ejhhy actions"
+    >
+      <div
+        className="sc-fodVxV dCYfrG"
+      >
+        <button
+          className="sc-dlfnbm sc-gKsewC jaaHrn cdpTJI"
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-exchange-alt fa-w-16 "
+            data-icon="exchange-alt"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 168v-16c0-13.255 10.745-24 24-24h360V80c0-21.367 25.899-32.042 40.971-16.971l80 80c9.372 9.373 9.372 24.569 0 33.941l-80 80C409.956 271.982 384 261.456 384 240v-48H24c-13.255 0-24-10.745-24-24zm488 152H128v-48c0-21.314-25.862-32.08-40.971-16.971l-80 80c-9.372 9.373-9.372 24.569 0 33.941l80 80C102.057 463.997 128 453.437 128 432v-48h360c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </button>
+      </div>
+      <button
+        className="sc-dlfnbm sc-eCssSg jaaHrn gRtzej"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-chart-line fa-w-16 "
+          data-icon="chart-line"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        <span
+          className="sc-jSgupP iydUeL"
+        >
+          £1 = €0
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="sc-crrsfI itEgCu bottom"
+  >
+    <button
+      className="sc-iBPRYJ gMoiEK sc-dQppl eepqsu"
+      type="button"
+    >
+      <span>
+        EUR
+      </span>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-angle-down fa-w-10 "
+        data-icon="angle-down"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 320 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+    <div
+      className="sc-bqyKva dsycdt"
+    >
+      Balance: 
+      €
+      100
+    </div>
+    <div
+      className="sc-kstrdz eVykBZ"
+    >
+      <input
+        autoComplete="off"
+        className="sc-bdfBwQ gbyPV"
+        min="0.01"
+        name="toAmount"
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        onPaste={[Function]}
+        placeholder="0"
+        step="0.01"
+        style={
+          Object {
+            "textAlign": "right",
+            "width": "3ch",
+          }
+        }
+        type="number"
+      />
+    </div>
+  </div>
+  <div
+    className="bottom"
+  >
+    <button
+      className="sc-dlfnbm gVpfYg"
+      disabled={true}
+      type="submit"
+    >
+      Exchange
+    </button>
+  </div>
+</form>
+`;
+
+exports[`Storyshots Pages/PocketSelector Example 1`] = `
+<div
+  className="sc-bkzZxe iAcjJj"
+>
+  <header
+    className="sc-fubCfw hEpPYv"
+  >
+    <span>
+      <span
+        className="sc-idOhPF dxVHzc"
+      >
+        <button
+          className="sc-iBPRYJ gMoiEK"
+          onClick={[Function]}
+          type="button"
+        >
+          <span />
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-arrow-left fa-w-14 "
+            data-icon="arrow-left"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </button>
+        <input
+          className="sc-bdfBwQ gbyPV"
+          onChange={[Function]}
+        />
+      </span>
+    </span>
+    <button
+      className="sc-dlfnbm sc-hKgILt jaaHrn jHREqA"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-toggle-off fa-w-18 "
+        data-icon="toggle-off"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M384 64H192C85.961 64 0 149.961 0 256s85.961 192 192 192h192c106.039 0 192-85.961 192-192S490.039 64 384 64zM64 256c0-70.741 57.249-128 128-128 70.741 0 128 57.249 128 128 0 70.741-57.249 128-128 128-70.741 0-128-57.249-128-128zm320 128h-48.905c65.217-72.858 65.236-183.12 0-256H384c70.741 0 128 57.249 128 128 0 70.74-57.249 128-128 128z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+  </header>
+  <div
+    className="sc-dIUggk kgFbgY"
+  >
+    <div
+      className="sc-pFZIQ fBCUbX"
+      onClick={[Function]}
+    >
+      <img
+        alt="EU Flag"
+        className="sc-jrAGrp iSuasC"
+        height={45}
+        role="img"
+        src="https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/EU.svg"
+        width={45}
+      />
+      <div
+        className="sc-kEjbxe cjJWHK"
+      >
+        EUR
+         • 
+        €
+        100
+      </div>
+      <div
+        className="sc-iqHYGH hHzYtY"
+      >
+        Euro
+      </div>
+    </div>
+    <div
+      className="sc-pFZIQ fBCUbX"
+      onClick={[Function]}
+    >
+      <img
+        alt="GB Flag"
+        className="sc-jrAGrp iSuasC"
+        height={45}
+        role="img"
+        src="https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/GB.svg"
+        width={45}
+      />
+      <div
+        className="sc-kEjbxe cjJWHK"
+      >
+        GBP
+         • 
+        £
+        200
+      </div>
+      <div
+        className="sc-iqHYGH hHzYtY"
+      >
+        British Pound
+      </div>
+    </div>
+    <div
+      className="sc-pFZIQ fBCUbX"
+      onClick={[Function]}
+    >
+      <img
+        alt="US Flag"
+        className="sc-jrAGrp iSuasC"
+        height={45}
+        role="img"
+        src="https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/US.svg"
+        width={45}
+      />
+      <div
+        className="sc-kEjbxe cjJWHK"
+      >
+        USD
+         • 
+        $
+        300
+      </div>
+      <div
+        className="sc-iqHYGH hHzYtY"
+      >
+        US Dollar
+      </div>
+    </div>
+  </div>
+</div>
+`;

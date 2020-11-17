@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getRate() should return rate for GBP -> EUR with 4 decimal places 1`] = `
+Object {
+  "fromPocket": "GBP",
+  "rate": 1.1163,
+  "toPocket": "EUR",
+}
+`;
+
+exports[`getRate() should return rate for GBP -> EUR with 4 decimal places 2`] = `"https://api.exchangeratesapi.io/latest?base=GBP"`;
+
+exports[`postExchange() should only return 2 decimal places after exchange 1`] = `
+Object {
+  "fromBalance": 0,
+  "toBalance": 423.45,
+}
+`;
+
+exports[`postExchange() should return correct balance after exchange 1`] = `
+Object {
+  "fromBalance": 0,
+  "toBalance": 400,
+}
+`;

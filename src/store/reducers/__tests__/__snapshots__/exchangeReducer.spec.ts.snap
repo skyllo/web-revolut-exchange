@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`exchangeReducer should return the initial state 1`] = `
+Object {
+  "fromPocket": "GBP",
+  "toPocket": "EUR",
+}
+`;
+
+exports[`exchangeReducer should swap pockets 1`] = `
+Object {
+  "fromPocket": "USD",
+  "toPocket": "EUR",
+}
+`;
+
+exports[`exchangeReducer should switch fromPocket if same 1`] = `
+Object {
+  "fromPocket": "EUR",
+  "toPocket": "GBP",
+}
+`;
+
+exports[`exchangeReducer should switch toPocket if same 1`] = `
+Object {
+  "fromPocket": "EUR",
+  "toPocket": "USD",
+}
+`;
+
+exports[`exchangeReducer should update fromPocket if different 1`] = `
+Object {
+  "fromPocket": "EUR",
+  "toPocket": "GBP",
+}
+`;
+
+exports[`exchangeReducer should update toPocket if different 1`] = `
+Object {
+  "fromPocket": "USD",
+  "toPocket": "GBP",
+}
+`;

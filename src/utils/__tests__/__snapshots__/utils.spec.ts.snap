@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toFixedDecimals() should limit to 2 decimal places 1`] = `1000.5`;
+
+exports[`toFixedDecimals() should limit to 2 decimal places and round up 1`] = `1000.51`;
+
+exports[`toFixedDecimals() should no contain any decimal places 1`] = `1000`;
+
+exports[`toFixedDecimals() should no contain any decimal places and round up 1`] = `1001`;

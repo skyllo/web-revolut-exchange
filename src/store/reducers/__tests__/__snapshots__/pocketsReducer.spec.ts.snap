@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pocketsReducer should return the initial state 1`] = `
+Object {
+  "EUR": Object {
+    "balance": 100,
+    "countryCode": "EU",
+    "name": "EUR",
+    "symbol": "€",
+    "title": "Euro",
+  },
+  "GBP": Object {
+    "balance": 200,
+    "countryCode": "GB",
+    "name": "GBP",
+    "symbol": "£",
+    "title": "British Pound",
+  },
+  "USD": Object {
+    "balance": 300,
+    "countryCode": "US",
+    "name": "USD",
+    "symbol": "$",
+    "title": "US Dollar",
+  },
+}
+`;
+
+exports[`pocketsReducer should set balance correctly 1`] = `
+Object {
+  "EUR": Object {
+    "balance": 199,
+    "countryCode": "EU",
+    "name": "EUR",
+    "symbol": "€",
+    "title": "Euro",
+  },
+  "GBP": Object {
+    "balance": 0,
+    "countryCode": "GB",
+    "name": "GBP",
+    "symbol": "£",
+    "title": "British Pound",
+  },
+  "USD": Object {
+    "balance": 0,
+    "countryCode": "US",
+    "name": "USD",
+    "symbol": "$",
+    "title": "US Dollar",
+  },
+}
+`;
