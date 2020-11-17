@@ -15,4 +15,4 @@ export default {
   ],
 } as Meta;
 
-export const Default: Story<InputBasicProps> = () => <InputBasic placeholder="placeholder" />;
+export const Example: Story<InputBasicProps> = () => <InputBasic placeholder="placeholder" />;
