@@ -2,7 +2,7 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useLayoutEffect, useState } from 'react';
 import { styled } from '../Theme';
 import { PocketData } from '../types';
-import { toFixedDecimals } from '../utils/utils';
+import { toFixedCurrency } from '../utils/utils';
 import { AmountInput } from './AmountInput';
 import { IconButton } from './IconButton';
 
@@ -95,7 +95,7 @@ export const PocketControls = React.forwardRef<HTMLInputElement, PocketControlsP
         </StyledIconButton>
         <StyledBalance data-testid={`${name}Balance`} hasEnoughBalance={hasEnoughBalance}>
           Balance: {pocket.symbol}
-          {toFixedDecimals(pocket.balance)}
+          {toFixedCurrency(pocket.balance)}
         </StyledBalance>
         <StyledAmount>
           {amount !== '' && amountValue !== 0 && <div>{prefix}</div>}

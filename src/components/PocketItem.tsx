@@ -2,6 +2,7 @@ import React from 'react';
 import Flag from 'react-flagkit';
 import { Pocket, PocketData } from '../types';
 import { styled } from '../Theme';
+import { toFixedCurrency } from '../utils/utils';
 
 const StyledPocketItem = styled.div`
   display: grid;
@@ -53,7 +54,7 @@ export const PocketItem = (props: PocketItemProps) => {
       <StyledFlag country={pocket.countryCode} size={45} />
       <StyledBalance>
         {pocket.name} • {pocket.symbol}
-        {pocket.balance}
+        {toFixedCurrency(pocket.balance)}
       </StyledBalance>
       <StyledTitle>{pocket.title}</StyledTitle>
     </StyledPocketItem>

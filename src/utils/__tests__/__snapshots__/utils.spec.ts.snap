@@ -1,5 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`toFixedCurrency() should fix to 2 decimal places 1`] = `"1000.50"`;
+
+exports[`toFixedCurrency() should have no decimal places when decimals are zero 1`] = `"1000"`;
+
+exports[`toFixedCurrency() should remove all decimal places 1`] = `"1000"`;
+
 exports[`toFixedDecimals() should limit to 2 decimal places 1`] = `1000.5`;
 
 exports[`toFixedDecimals() should limit to 2 decimal places and round up 1`] = `1000.51`;
