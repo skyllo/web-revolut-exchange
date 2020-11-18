@@ -253,9 +253,10 @@ exports[`Storyshots Components/Header Text With Input 1`] = `
 </header>
 `;
 
-exports[`Storyshots Components/InputBasic Default 1`] = `
+exports[`Storyshots Components/InputBasic Example 1`] = `
 <input
   className="sc-bdfBwQ gbyPV"
+  placeholder="placeholder"
 />
 `;
 
@@ -414,6 +415,7 @@ exports[`Storyshots Pages/Exchange Example 1`] = `
     </button>
     <div
       className="sc-bqyKva dsycdt"
+      data-testid="fromAmountBalance"
     >
       Balance: 
       £
@@ -423,6 +425,7 @@ exports[`Storyshots Pages/Exchange Example 1`] = `
       className="sc-kstrdz eVykBZ"
     >
       <input
+        aria-label="fromAmount"
         autoComplete="off"
         className="sc-bdfBwQ gbyPV"
         min="0.01"
@@ -536,6 +539,7 @@ exports[`Storyshots Pages/Exchange Example 1`] = `
     </button>
     <div
       className="sc-bqyKva dsycdt"
+      data-testid="toAmountBalance"
     >
       Balance: 
       €
@@ -545,6 +549,7 @@ exports[`Storyshots Pages/Exchange Example 1`] = `
       className="sc-kstrdz eVykBZ"
     >
       <input
+        aria-label="toAmount"
         autoComplete="off"
         className="sc-bdfBwQ gbyPV"
         min="0.01"
@@ -570,6 +575,7 @@ exports[`Storyshots Pages/Exchange Example 1`] = `
   >
     <button
       className="sc-dlfnbm gVpfYg"
+      data-testid="submit-exchange"
       disabled={true}
       type="submit"
     >
